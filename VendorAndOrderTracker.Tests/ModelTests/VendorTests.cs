@@ -50,5 +50,18 @@ namespace VendorAndOrderTracker.Tests
       Vendor result = Vendor.Find(2);
       Assert.AreEqual(newVendor2, result);
     }
+
+    // [TestMethod]
+    // public void AddAlbum_AssociatesAlbumWithVendor_AlbumList()
+    // {
+    //   string album = "test";
+    //   Album newAlbum = new Album(album, "test");
+    //   List<Album> newList = new List<Album> { newAlbum };
+    //   string name = "test";
+    //   Vendor newVendor = new Vendor(name);
+    //   newVendor.AddAlbum(newAlbum);
+    //   List<Album> result = newVendor.Albums;
+    //   CollectionAssert.AreEqual(newList, result);
+    // }
   }
 }
