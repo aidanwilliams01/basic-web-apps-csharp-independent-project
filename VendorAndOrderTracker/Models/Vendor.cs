@@ -6,6 +6,7 @@ namespace VendorAndOrderTracker.Models
     public string Name {get; set;}
     public string Description {get; set;}
     public int Id {get;}
+    public List<Order> Orders = new List<Order>{};
 
     public Vendor(string name, string description)
     {
@@ -28,6 +29,10 @@ namespace VendorAndOrderTracker.Models
     public static Vendor Find(int id)
     {
       return _instances[id-1];
+    }
+    public void AddOrder(Order order)
+    {
+      Orders.Add(order);
     }
   }
 }
