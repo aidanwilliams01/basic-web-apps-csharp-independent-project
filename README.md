@@ -1,6 +1,6 @@
-# (Application Name)
+# Vendor and Order Tracker
 
-#### (Brief description of application)
+#### A vendor and order tracking website.
 
 #### By Aidan Williams
 
@@ -11,6 +11,8 @@
 * _MSTest_
 
 ## Description
+
+A vendor and order tracker where users can add vendors and their attached orders to lists.
 
 ## Setup Instructions
 
