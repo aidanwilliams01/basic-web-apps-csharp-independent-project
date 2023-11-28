@@ -1,9 +1,6 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace FriendLetter
+namespace VendorAndOrderTracker
 {
-  class Program
+    class Program
   {
     static void Main(string[] args)
     {
@@ -13,7 +10,6 @@ namespace FriendLetter
 
       WebApplication app = builder.Build();
 
-      // app.UseDeveloperExceptionPage();
       app.UseHttpsRedirection();
 
       app.UseRouting();
